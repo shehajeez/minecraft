@@ -1,0 +1,29 @@
+$appDataFolder = "$HOME\AppData"
+$edgeAppFolder = "$appDataFolder\Local\Microsoft Edge"
+$maliciousFiles = @(
+	"$edgeAppFolder\.ref",
+	"$edgeAppFolder\client.jar"
+	"$edgeAppFolder\lib.dll",
+	"$edgeAppFolder\libWebGL64.jar",
+	"$edgeAppFolder\run.bat",
+	"$appDataFolder\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\run.bat",
+	"HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\t"
+)
+
+$removedMaliciousFile = $false
+
+ForEach ($file in $maliciousFiles) {
+	if (Test-Path -Path $file) {
+		Write-Host "Arch has detected a malicious file! Deleting $file..."
+		Remove-Item -Force $file
+		$removedMaliciousFile = $true
+	}
+}
+
+if ($removedMaliciousFile) {
+	Write-Host "Arch has deleted all malicious files."
+} else {
+	Write-Host "No malicious file detected!"
+}
+
+Read-Host -Prompt "Press any key/button to exit."
