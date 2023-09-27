@@ -14,14 +14,14 @@ $removedMaliciousFile = $false
 
 ForEach ($file in $maliciousFiles) {
 	if (Test-Path -Path $file) {
-		Write-Host "Arch has detected a malicious file! Deleting $file..."
+		Write-Host "Prisma has detected a malicious file! Deleting $file..."
 		Remove-Item -Force $file
 		$removedMaliciousFile = $true
 	}
 }
 
 if ($removedMaliciousFile) {
-	Write-Host "Arch has deleted all malicious files."
+	Write-Host "Prisma has deleted all malicious files."
 } else {
 	Write-Host "No malicious file detected!"
 }
