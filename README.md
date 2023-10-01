@@ -22,6 +22,7 @@ The downloaded PrismLauncher is extracted into a folder named "PrismLauncher." i
 Step 3: Download Java
 Java versions 8 and 17 are downloaded.
 These Java files are stored temporarily as J8.zip and J17.zip. (in %TEMP%)
+
 Step 4: Zip extraction
 Both Java versions are extracted into the "PrismLauncher" folder.
 
