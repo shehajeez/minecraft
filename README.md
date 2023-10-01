@@ -10,7 +10,7 @@ This is a downloader for a popular custom Launcher for Minecraft called PrismLau
 To select your Java version just click browse on the setup window of PrismLauncher and choose any Java folder but REMEMBER you'll have to choose Java 17 for versions 1.17 and up to play those versions.
 
 What does "prismlauncher.bat" (PrismLauncher Downloader/Installer)
-**PrismLauncher Installation:
+PrismLauncher Installation:
 
 Step 1: Download PrismLauncher:
 The PrismLauncher zip is downloaded from the official GitHub repository.
@@ -21,13 +21,13 @@ The downloaded PrismLauncher is extracted into a folder named "PrismLauncher." i
 
 Step 3: Download Java:
 Java versions 8 and 17 are downloaded.
-These Java files are stored temporarily as J8.zip and J17.zip. (in %TEMP%)
+These Java zips are stored temporarily as J8.zip and J17.zip. (in %TEMP%)
 
 Step 4: Zip extraction 2:
 Both Java versions are extracted into the "PrismLauncher" folder.
 
 Step 5: Clean Up:
-Temporary download files (Pl.zip, J8.zip, and J17.zip) are deleted.
+Temporary download zips (Pl.zip, J8.zip, and J17.zip) are deleted.
 
 Step 6: Installation Complete:
-A message shows that the installation has been finished and that the user can press any key to exit the CMD Window.**
+A message shows that the installation has been finished and that the user can press any key to exit the CMD Window.
