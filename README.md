@@ -12,22 +12,22 @@ To select your Java version just click browse on the setup window of PrismLaunch
 What does "prismlauncher.bat" (PrismLauncher Downloader/Installer)
 **PrismLauncher Installation:
 
-Step 1: Download PrismLauncher
+Step 1: Download PrismLauncher:
 The PrismLauncher zip is downloaded from the official GitHub repository.
 The downloaded file is stored temporarily as Pl.zip. (in %TEMP%)
 
-Step 2: The zip extraction
+Step 2: The zip extraction:
 The downloaded PrismLauncher is extracted into a folder named "PrismLauncher." in the directory where the downloader is in.
 
-Step 3: Download Java
+Step 3: Download Java:
 Java versions 8 and 17 are downloaded.
 These Java files are stored temporarily as J8.zip and J17.zip. (in %TEMP%)
 
-Step 4: Zip extraction
+Step 4: Zip extraction 2:
 Both Java versions are extracted into the "PrismLauncher" folder.
 
-Step 5: Clean Up
+Step 5: Clean Up:
 Temporary download files (Pl.zip, J8.zip, and J17.zip) are deleted.
 
-Step 6: Installation Complete
+Step 6: Installation Complete:
 A message shows that the installation has been finished and that the user can press any key to exit the CMD Window.**
