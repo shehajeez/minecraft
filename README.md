@@ -9,7 +9,8 @@ prismlauncher.bat: Windows Batch Script
 This is a downloader for a popular custom Launcher for Minecraft called PrismLauncher. PrismLauncher by default doesn't have Java included, but we at the Prisma Team have added it as a folder in PrismLauncher. You can select JRE 1.8 for 1.12 and down and 17 for 1.17 and up.
 To select your Java version just click browse on the setup window of PrismLauncher and choose any Java folder but REMEMBER you'll have to choose Java 17 for versions 1.17 and up to play those versions.
 
-What does "prismlauncher.bat" (PrismLauncher Downloader/Installer)
+What does "prismlauncher.bat" (PrismLauncher Downloader/Installer) do?
+
 PrismLauncher Installation:
 
 Step 1: Download PrismLauncher:
