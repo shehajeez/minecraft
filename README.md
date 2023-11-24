@@ -1,4 +1,5 @@
 **USAGE**
+Officially open-source! From now on every thing in this repository will be open-source.
 
 prismlauncher.bat: Windows Batch Script
 This is a downloader for a popular custom Launcher for Minecraft called PrismLauncher. PrismLauncher by default doesn't have Java included, but we at the Prisma Team have added it as a folder in PrismLauncher. You can select JRE 1.8 for 1.12 and down and 17 for 1.17 and up.
