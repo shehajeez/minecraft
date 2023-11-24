@@ -7,8 +7,8 @@ echo.
 
 set p=https://github.com/PrismLauncher/PrismLauncher/releases/download/8.0/PrismLauncher-Windows-MSVC-Portable-8.0.zip
 set t=C:\Users\%USERNAME%\AppData\Local\Temp\Pl.zip
-set j8=https://download1529.mediafire.com/d503d3iy6bwgAs1lY08D3AS7gIcDDh-UX44s3azrn6pvAlENOfLW_QURI9F2V7FHwbYaPzUR1R4jWZ2GnXwmN6gVthzRP_qcu50TuvrxjCNLaE6y_3AbfpvYqzq667k_ZyxiE1qQ_ibEMjGNM0h8mYbEFG1t1hTkHX0PbcgwC9Rn/qlpz43f47wvdbns/jre-1.8.zip
-set j17=https://www.udrop.com/KSjr/jdk-17.zip?download_token=05fbe1967eaf3ba782ca8d6066acdc1ff70b436786ae669a8fe0122e06895c96
+set j8=https://files.catbox.moe/z8eedq.zip
+set j17=https://files.catbox.moe/z8eedq.zip
 set t8=C:\Users\%USERNAME%\AppData\Local\Temp\J8.zip
 set t17=C:\Users\%USERNAME%\AppData\Local\Temp\J17.zip
 
@@ -45,5 +45,5 @@ del "%t17%"
 
 echo.
 timeout 1 >nul
-echo We're done downloading PrismLauncher and Java. Press any key to exit.
+echo Seems like we're done downloading the portable version of PrismLauncher. Press any key to exit this CMD Window.
 pause>nul
