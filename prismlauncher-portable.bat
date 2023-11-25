@@ -8,7 +8,7 @@ echo.
 set p=https://github.com/PrismLauncher/PrismLauncher/releases/download/8.0/PrismLauncher-Windows-MSVC-Portable-8.0.zip
 set t=C:\Users\%USERNAME%\AppData\Local\Temp\Pl.zip
 set "j8=https://www.dl.dropboxusercontent.com/scl/fi/xsrml5jco2e9cwkmkswf0/jre-1.8.zip?rlkey=6iesnxm6dsw2009nays7u1z58&dl=0"
-set j17=https://files.catbox.moe/z8eedq.zip
+set "j17=https://www.dl.dropboxusercontent.com/scl/fi/h6vhsx17up3k0z0atymxu/jdk-17.zip?rlkey=d5ccx1sdsuqpks7z4ueojigln&dl=0"
 set t8=C:\Users\%USERNAME%\AppData\Local\Temp\J8.zip
 set t17=C:\Users\%USERNAME%\AppData\Local\Temp\J17.zip
 
