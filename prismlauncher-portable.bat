@@ -2,7 +2,7 @@
 title PrismLauncher (Shomo) (8.0)
 echo Welcome to the PrismLauncher Downloader that has Java included without installing it.
 echo.
-echo This downloader was made by the Shomo Team at https://dsc.gg/moonnn
+echo This downloader was made by the Ethos Team.
 echo.
 
 set p=https://github.com/PrismLauncher/PrismLauncher/releases/download/8.3/PrismLauncher-Windows-MSVC-Portable-8.3.zip
